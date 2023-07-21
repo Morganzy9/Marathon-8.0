@@ -13,9 +13,6 @@
 		1672C2E82A6AECB900EA6E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1672C2E62A6AECB900EA6E4C /* Main.storyboard */; };
 		1672C2EA2A6AECBA00EA6E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1672C2E92A6AECBA00EA6E4C /* Assets.xcassets */; };
 		1672C2ED2A6AECBA00EA6E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1672C2EB2A6AECBA00EA6E4C /* LaunchScreen.storyboard */; };
-		1672C2F82A6AECBA00EA6E4C /* I_Am_PoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672C2F72A6AECBA00EA6E4C /* I_Am_PoorTests.swift */; };
-		1672C3022A6AECBA00EA6E4C /* I_Am_PoorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672C3012A6AECBA00EA6E4C /* I_Am_PoorUITests.swift */; };
-		1672C3042A6AECBA00EA6E4C /* I_Am_PoorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672C3032A6AECBA00EA6E4C /* I_Am_PoorUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		1672C2EC2A6AECBA00EA6E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1672C2EE2A6AECBA00EA6E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1672C2F32A6AECBA00EA6E4C /* I Am PoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am PoorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1672C2F72A6AECBA00EA6E4C /* I_Am_PoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_PoorTests.swift; sourceTree = "<group>"; };
 		1672C2FD2A6AECBA00EA6E4C /* I Am PoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am PoorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1672C3012A6AECBA00EA6E4C /* I_Am_PoorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_PoorUITests.swift; sourceTree = "<group>"; };
-		1672C3032A6AECBA00EA6E4C /* I_Am_PoorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_PoorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				1672C2DF2A6AECB900EA6E4C /* I Am Poor */,
-				1672C2F62A6AECBA00EA6E4C /* I Am PoorTests */,
-				1672C3002A6AECBA00EA6E4C /* I Am PoorUITests */,
 				1672C2DE2A6AECB900EA6E4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				1672C2EE2A6AECBA00EA6E4C /* Info.plist */,
 			);
 			path = "I Am Poor";
-			sourceTree = "<group>";
-		};
-		1672C2F62A6AECBA00EA6E4C /* I Am PoorTests */ = {
-			isa = PBXGroup;
-			children = (
-				1672C2F72A6AECBA00EA6E4C /* I_Am_PoorTests.swift */,
-			);
-			path = "I Am PoorTests";
-			sourceTree = "<group>";
-		};
-		1672C3002A6AECBA00EA6E4C /* I Am PoorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1672C3012A6AECBA00EA6E4C /* I_Am_PoorUITests.swift */,
-				1672C3032A6AECBA00EA6E4C /* I_Am_PoorUITestsLaunchTests.swift */,
-			);
-			path = "I Am PoorUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1672C2F82A6AECBA00EA6E4C /* I_Am_PoorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1672C3042A6AECBA00EA6E4C /* I_Am_PoorUITestsLaunchTests.swift in Sources */,
-				1672C3022A6AECBA00EA6E4C /* I_Am_PoorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
